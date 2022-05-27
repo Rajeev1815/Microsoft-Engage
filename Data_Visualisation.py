@@ -19,7 +19,7 @@ with st.spinner('Data Visualisation is being done!'):
 
 # Reading the data that has been cleaned through Jupyter Notebook
 data = pd.read_csv(
-    "/Users/rajeevjoshi/Car Price Predictor/Cleaned Engage Car.csv")
+    "/Rajeev1815/Microsoft-Engage/Cleaned Engage Car.csv")
 # An extra column needed to be dropped
 data.drop('Unnamed: 0', inplace=True, axis=1)
 st.title("DATA VISUALISATION:")
