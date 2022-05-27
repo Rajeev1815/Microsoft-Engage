@@ -6,7 +6,6 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.5
 numpy >=1.9.2
 scipy >=0.15.1
-sklearn == 1.1.0
 matplotlib>=1.4.3 
 pandas>=0.19
 flasgger==0.9.4
@@ -14,3 +13,5 @@ seaborn==0.10.1
 plotly>=5.1.0
 plotly-express==0.2.0
 streamlit
+scikit-learn<=1.1.0
+scikit-learn-intelex<=2021.20210714.100439
