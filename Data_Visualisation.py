@@ -18,8 +18,7 @@ with st.spinner('Data Visualisation is being done!'):
     time.sleep(8)  # Loading spinner call so that user does not get bored
 
 # Reading the data that has been cleaned through Jupyter Notebook
-data = pd.read_csv(
-    "Microsoft-Engage/main/Cleaned Engage Car.csv")
+data = pd.read_csv("Cleaned Engage Car.csv")
 # An extra column needed to be dropped
 data.drop('Unnamed: 0', inplace=True, axis=1)
 st.title("DATA VISUALISATION:")
