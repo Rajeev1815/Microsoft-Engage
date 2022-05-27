@@ -272,5 +272,4 @@ if (menu == 'Simple Plots'):
         plot_feat(x, 20, option9, option10, ' ')
         sns.histplot(data=data, x=option10, color=option11)
         plot_call()
-        df1 = pd.DataFrame({'Power' : list(data['Power']), 'Mileage' : list(data['Mileage'])})
-        st.write(df1.iplot(kind = 'spread'))
+       
