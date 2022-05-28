@@ -17,9 +17,8 @@ footer {visibility: hidden;}
 with st.spinner('Data Visualisation is being done!'):
     time.sleep(8)  # Loading spinner call so that user does not get bored
 
-col1, col2  = st.columns([1,10]) #importing images in head of web app
-col2.image("https://i.pinimg.com/originals/82/9e/c6/829ec6eb465ac4eee37d8f999658c5c8.gif", width = 200)
-col1.image("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eddc84b6-ba91-4454-982d-2ea514cc92ae/d2u3quu-041237b6-45ea-497e-a8d4-3a0ca25de4f7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VkZGM4NGI2LWJhOTEtNDQ1NC05ODJkLTJlYTUxNGNjOTJhZVwvZDJ1M3F1dS0wNDEyMzdiNi00NWVhLTQ5N2UtYThkNC0zYTBjYTI1ZGU0ZjcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lwoFMVm-aJrVTGN46U7DE1ZF6vtfkJtTuEeMPhO5W0E",width = 250)
+st.image("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eddc84b6-ba91-4454-982d-2ea514cc92ae/d2u3quu-041237b6-45ea-497e-a8d4-3a0ca25de4f7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VkZGM4NGI2LWJhOTEtNDQ1NC05ODJkLTJlYTUxNGNjOTJhZVwvZDJ1M3F1dS0wNDEyMzdiNi00NWVhLTQ5N2UtYThkNC0zYTBjYTI1ZGU0ZjcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lwoFMVm-aJrVTGN46U7DE1ZF6vtfkJtTuEeMPhO5W0E",width = 250)
+#image ontop of header
 
 # Reading the data that has been cleaned through Jupyter Notebook
 data = pd.read_csv(
