@@ -23,7 +23,7 @@ col1.image("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eddc84b6-b
 
 # Reading the data that has been cleaned through Jupyter Notebook
 data = pd.read_csv(
-    "/Users/rajeevjoshi/Car Price Predictor/Cleaned Engage Car.csv")
+    "Cleaned Engage Car.csv")
 # An extra column needed to be dropped
 data.drop('Unnamed: 0', inplace=True, axis=1)
 st.title("DATA VISUALISATION:")
