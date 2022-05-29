@@ -95,7 +95,7 @@ if (menu == 'Complex Plots'):
         option4 = st.selectbox('Select the characterization feature :',
                                ('Manufacturer', 'Body_Type', 'Gear_Type', 'Fuel_Type', 'Drivetrain')) #Markers color will be based on characterisation feature which will help user in evaluating more better
         option6 = st.selectbox(
-            'Do you want animated feature in your plot?', ('Yes', 'No')) #A timeline based on user input will be open which will help user to analyse data based on another feature using an animation
+            'Do you want animated feature in your plot?', ('No', 'Yes')) #A timeline based on user input will be open which will help user to analyse data based on another feature using an animation
         if (option6 == 'Yes'):
             option5 = st.selectbox(
                 'Animation Feature for Timeline :', list_numeric_columns)
@@ -126,7 +126,7 @@ if (menu == 'Complex Plots'):
         option14 = st.selectbox('Characterization Feature :', (
             'Manufacturer', 'Body_Type', 'Gear_Type', 'Fuel_Type', 'Drivetrain')) #For categorising data
         option17 = st.selectbox(
-            'Do you want animated feature in your plot?', ('Yes', 'No')) 
+            'Do you want animated feature in your plot?', ('No', 'Yes')) 
         if (option17 == 'Yes'):
             option15 = st.selectbox(
                 'Variable Feature for animation :', list_numeric_columns)
